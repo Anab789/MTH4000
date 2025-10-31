@@ -16,5 +16,5 @@ def length(x,y,z=0):
 x = float(input("Enter value of x: "))
 y = float(input("Enter value of y: "))
 z = float(input("Enter value of z: "))
-line_segment = round(length(x,y,z=0),2)
+line_segment = round(length(x,y,z),2)
 print("the length of the line segment between the origin and", (x,y,z), "is", line_segment)
